@@ -50,7 +50,7 @@ p {
 }
 
 .main-page-wrapper {
-  background: url("/img/background/hero-bg.jpg") center top -8px no-repeat, url("/img/background/bottom-bg.jpg") right -16px bottom 298px no-repeat;
+  background: url("./img/background/hero-bg.jpg") center top -8px no-repeat, url("./img/background/bottom-bg.jpg") right -16px bottom 298px no-repeat;
 }
 
 .container {
@@ -382,7 +382,7 @@ p {
   content: "";
   width: 490px;
   height: 505px;
-  background: url(/img/photos/cameraman.jpg) center center / cover no-repeat;
+  background: url(./img/photos/cameraman.jpg) center center / cover no-repeat;
 }
 
 .about__content::before,
@@ -458,33 +458,33 @@ p {
 }
 
 .socials__item--icon--telegram .socials__link {
-  background-image: url(/img/icons/telegram.png);
+  background-image: url(./img/icons/telegram.png);
 }
 
 .socials__item--icon--telegram .socials__link:hover {
-  background-image: url(/img/icons/telegram-h.png);
+  background-image: url(./img/icons/telegram-h.png);
 }
 
 .socials__item--icon--vk .socials__link {
-  background-image: url(/img/icons/vk.png);
+  background-image: url(./img/icons/vk.png);
 }
 
 .socials__item--icon--vk .socials__link:hover {
-  background-image: url(/img/icons/vk-h.png);
+  background-image: url(./img/icons/vk-h.png);
 }
 
 .socials__item--icon--fb .socials__link {
-  background-image: url(/img/icons/facebook.png);
+  background-image: url(./img/icons/facebook.png);
 }
 
 .socials__item--icon--fb .socials__link:hover {
-  background-image: url(/img/icons/facebook-h.png);
+  background-image: url(./img/icons/facebook-h.png);
 }
 
 .socials__item--icon--insta .socials__link {
-  background-image: url(/img/icons/instagram.png);
+  background-image: url(./img/icons/instagram.png);
 }
 
 .socials__item--icon--insta .socials__link:hover {
-  background-image: url(/img/icons/instagram-h.png);
+  background-image: url(./img/icons/instagram-h.png);
 }
