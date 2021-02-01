@@ -49,8 +49,13 @@ p {
   /* чтобы padding не растягивал блок */
 }
 
+.wrapper {
+  overflow: hidden;
+  min-width: 1160px;
+}
+ 
 .main-page-wrapper {
-  background: url("../img/background/hero-bg.jpg") center top -8px no-repeat, url("../img/background/bottom-bg.jpg") right -16px bottom 298px no-repeat;
+  background: url("../img/background/hero-bg.jpg") center top no-repeat, url("../img/background/bottom-bg.jpg") center bottom 298px no-repeat;
 }
 
 .container {
@@ -61,13 +66,13 @@ p {
 .header {
   height: 70px;
   position: relative;
-  margin-bottom: 149px;
+  margin-bottom: 157px;
 }
 
 .logo {
   display: block;
   position: absolute;
-  top: 13px;
+  top: 21px;
   left: 0px;
 }
 
@@ -77,7 +82,7 @@ p {
 
 .menu {
   position: absolute;
-  top: 30px;
+  top: 38px;
   left: 439px;
 }
 
@@ -111,7 +116,7 @@ p {
 
 .contacts {
   position: absolute;
-  top: 19px;
+  top: 27px;
   right: 0px;
   text-align: right;
 }
