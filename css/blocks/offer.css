@@ -1,0 +1,69 @@
+.offer {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  color: #666666;
+  border-radius: 5px;
+  padding: 35px 33px 54px 22px;
+  text-decoration: none;
+}
+
+.offer:hover {
+  border: 5px solid #CCCCCC;
+  padding: 30px 28px 49px 17px;
+}
+
+.offer:hover .offer__button {
+  color: #fff;
+  background: #FF5500;
+  transition: .6s;
+} 
+
+.offer__header {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 30px;
+  min-height: 81px;
+}
+
+.offer__header-img {
+  padding-left: 7px;
+}
+
+.offer__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.offer__title {
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 17px;
+}
+
+.offer__conditions {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 23px;
+}
+
+.offer__conditions-item:nth-child(n+3) {
+  margin-top: 6px;
+  /* отступ для последующих блоков, если их будет больше двух */
+} 
+
+.offer__text {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.offer__text p {
+  margin-bottom: 6px;
+}
+
+.offer__text p:last-child {
+  margin-bottom: 28px;
+}
