@@ -1,0 +1,93 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  background: #17191C;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-weight: normal;
+}
+
+b {
+  color: #000000;
+}
+
+p {
+  margin-top: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  /* чтобы padding не растягивал блок */
+}
+
+.wrapper {
+  overflow: hidden;
+  min-width: 1200px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-page-wrapper {
+  background: url("../../img/background/hero-bg.jpg") center top no-repeat, url("../../img/background/bottom-bg.jpg") center bottom 298px no-repeat;
+}
+
+.wrapper__content {
+  flex: 1;
+}
+
+.wrapper-pages {
+  background: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
