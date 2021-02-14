@@ -3,15 +3,12 @@
 }
 
 .socials__item {
+  position: relative;
   margin-right: 7%;
 }
 
 .socials__item:last-child {
   margin-right: 0;
-}
-
-.socials__link {
-  position: relative;
 }
 
 .socials__link::before {
