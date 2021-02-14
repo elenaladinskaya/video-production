@@ -1,0 +1,60 @@
+.form {
+  margin-bottom: 42px;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.form__input {
+  flex: 1; /* чтобы инпупты были одинакового размера */
+  font-size: 18px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: #fff;
+  color: #1A1B1E;
+  padding: 23px 30px;
+  margin-right: 28px;
+}
+
+.form__input::placeholder {
+  color:#666666;
+}
+
+.form__input:focus {
+  color: #1A1B1E;
+  border-color:#CCCCCC;
+}
+
+.form__input:last-child {
+  margin-right: 0;
+}
+
+.form__input--textarea {
+  height: 235px;
+  line-height: 1.4;
+  resize: none;
+  padding: 30px 30px;
+}
+
+.form__controls {
+  margin-bottom: 24px;
+}
+
+.form__controls-title {
+  font-size: 18px;
+  color: #1A1B1E;
+  width: 47%;
+  padding-top: 11px;
+  margin-right: 10px;
+}
+
+.form__controls {
+  display: flex;
+}
+
+.form__btns {
+  display: flex;
+  justify-content: flex-end;
+}

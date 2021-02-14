@@ -1,0 +1,20 @@
+.separator {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 363px;
+  background: #373737 url(../../img/background/banner-bg.png) right 19% center no-repeat;
+}
+
+.separator__content {
+  max-width: 48%;
+}
+
+.separator__title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.separator__text-secondary {
+  color: #ff5400;
+}
