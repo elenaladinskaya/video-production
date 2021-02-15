@@ -13,7 +13,7 @@
   background: #FF5500;
   border-radius: 35px;
   padding: 18px 55px;
-  transition: .3s;
+  transition: background .3s;
   display: inline-block;
   /* конвертирует инлайновый элемент в блочный */
 }
@@ -23,14 +23,14 @@
 }
 
 .button--hover-secondary {
-  border: 2px solid #FF5500;
-  padding: 16px 53px;
+  border: 2px solid transparent;
   transition: .3s;
 }
 
 .button--hover-secondary:hover {
+  color: #FF3D00;
+  border-color: #FF5500;
   background: #fff;
-  color: #FF5500;
 }
 
 .button--main {
