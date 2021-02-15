@@ -13,7 +13,7 @@
 }
 
 .offers__item:hover .offer {
-  border: 5px solid #CCCCCC;
+  border-color: #CCCCCC;
 }
 
 .offers__item:hover .button--type-secondary {
