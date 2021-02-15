@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: rotateIn .9s .3s;
+  animation: rotateIn .9s .5s;
   animation-fill-mode: both;
 }
 
