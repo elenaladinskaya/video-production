@@ -21,6 +21,11 @@
   right: 0;
 }
 
+.contacts__dropdown-title:focus ~ .contacts__dropdown-menu {
+  opacity: .8;
+  right: 0;
+}
+
 .contacts__dropdown-title {
   font-size: 13px;
   color: #FF3D00;
