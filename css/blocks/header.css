@@ -1,0 +1,19 @@
+.header {
+  padding-top: 22px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu {
+  margin-right: 7px;
+  margin-top: 19px;
+}
+
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 8px;
+  line-height: 1.1;
+}

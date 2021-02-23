@@ -1,0 +1,73 @@
+.socials {
+  display: flex;
+}
+
+.socials__item {
+  position: relative;
+  margin-right: 7%;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__link::before {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 36px;
+  background: url(../../img/icons/sprite.png);
+  transition: .3s;
+}
+
+.socials__link::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 36px;
+  height: 36px;
+  background: url(../../img/icons/sprite.png);
+  opacity: 0;
+  transition: .3s;
+}
+
+.socials__link:hover:before {
+  opacity: 0;
+}
+
+.socials__link:hover:after {
+  opacity: 1;
+}
+
+.socials__item--icon-telegram .socials__link::before {
+  background-position: -122px -10px;
+}
+
+.socials__item--icon-telegram .socials__link::after {
+  background-position: -122px -66px;
+}
+
+.socials__item--icon-vk .socials__link::before {
+  background-position: -10px -122px;
+}
+
+.socials__item--icon-vk .socials__link::after {
+  background-position: -66px -122px;
+}
+
+.socials__item--icon-fb .socials__link::before {
+  background-position: -10px -10px;
+}
+
+.socials__item--icon-fb .socials__link::after {
+  background-position: -66px -10px;
+}
+
+.socials__item--icon-insta .socials__link::before {
+  background-position: -10px -66px;
+}
+
+.socials__item--icon-insta .socials__link::after {
+  background-position: -66px -66px;
+}

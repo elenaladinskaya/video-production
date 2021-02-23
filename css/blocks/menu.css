@@ -1,0 +1,26 @@
+.menu__item {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item--active {
+  color: #FF3D00;
+}
+
+.menu__item--active .menu__link {
+  cursor: default;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.menu__link:hover {
+  color: #FF3D00;
+}
