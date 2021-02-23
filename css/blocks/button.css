@@ -70,7 +70,3 @@
 .button--reset:hover {
   background: #2B2B2B;
 }
-
-.form__btns .button:focus {
-  outline: none;
-}

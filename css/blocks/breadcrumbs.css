@@ -11,6 +11,7 @@
 .breadcrumbs__item--active .breadcrumbs__link {
   font-weight: 700;
   cursor: default;
+  text-decoration: underline;
 }
 
 .breadcrumbs__item:after {
